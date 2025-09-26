@@ -1,0 +1,15 @@
+{
+  "tokenization": "char",
+  "embedding_dim": 256,
+  "hidden_size": 256,
+  "enc_layers": 2,
+  "dec_layers": 4,
+  "dropout": 0.3,
+  "learning_rate": 0.0005,
+  "batch_size": 64,
+  "teacher_forcing_start": 1.0,
+  "teacher_forcing_end": 0.5,
+  "epochs": 20,
+  "grad_clip": 1.0,
+  "beam_size": 5
+}
